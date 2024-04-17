@@ -1,0 +1,208 @@
+/* header start */
+ul a {
+    font-family: var(--font);
+    transition: all 0.5s ease-in-out;
+}
+
+ul li a:hover {
+    text-decoration: line-through;
+}
+
+/* header end */
+
+/* MAIN-BANNER START */
+
+.main-manner p {
+    font-family: var(--font-2);
+}
+
+/* about start */
+
+.about {
+    padding: 100px 0;
+}
+
+.title h2 {
+    font-family: var(--font);
+}
+
+.content p {
+    font-family: var(--font-2);
+}
+
+.progress {
+    height: 5px !important;
+    width: 50%;
+    overflow: visible !important;
+}
+
+.pro-bar {
+    height: 10px;
+    width: 84%;
+    position: relative !important;
+    overflow: visible !important;
+
+}
+
+.pro-1 {
+    position: absolute !important;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    height: 15px !important;
+    width: 15px !important;
+    right: -20px !important;
+    top: 5px !important;
+    transform: translate(-50%, -50%);
+}
+
+.pro-2 {
+    position: absolute !important;
+    background-color: rgba(135, 135, 135, 0.649);
+    border-radius: 50%;
+    width: 25px !important;
+    height: 25px !important;
+    right: -18px !important;
+    top: -8px !important;
+}
+
+.progress {
+    height: 8px !important;
+    width: 70%;
+}
+
+.pro {
+    height: 10px;
+    width: 90%;
+
+}
+
+.pro-1 {
+    height: 20px;
+    right: 40%;
+    top: 0;
+}
+
+.pro-2 {
+    height: 25px;
+    right: 40%;
+    top: 0;
+}
+
+.progress {
+    height: 8px !important;
+    width: 70%;
+}
+
+.bar-pro {
+    height: 10px;
+    width: 70%;
+
+}
+
+.pro-1 {
+    height: 20px;
+    right: 40%;
+    top: 0;
+}
+
+.pro-2 {
+    height: 25px;
+    right: 40%;
+    top: 0;
+}
+
+/* about end */
+
+/* experience start*/
+.experience {
+
+    padding: 100px 0;
+
+}
+
+.experience h2 {
+    font-family: var(--font);
+    font-weight: 700;
+}
+
+.single-experi {
+    border-right: 2px dashed #939393;
+    height: 100px;
+}
+
+/* experience end*/
+
+/* portfolio start */
+
+.portfolio {
+    padding: 100px 0;
+}
+
+.title-port h2 {
+    font-family: var(--font);
+    font-weight: 700;
+}
+
+/* portfolio end */
+
+/* services start */
+
+.services {
+    padding: 100px 0;
+}
+
+/* services end */
+
+/* testimonial start */
+
+.testimonial {
+    padding: 100px 0;
+}
+
+.ic {
+    transition: all 0.6s;
+}
+
+.ic:focus {
+    background-color: cyan;
+
+}
+
+.ic:focus a {
+    color: white !important;
+}
+
+.ic:hover {
+    background-color: cyan;
+}
+
+.ic:hover a {
+    color: white !important;
+}
+
+/* testimonial end */
+
+/* blog strat */
+
+.blog{
+    padding: 100px 0;
+}
+
+.sub-title{
+    padding-left: 150px;
+}
+
+/* blog end */
+
+/* contact start */
+
+.contact{
+    padding: 100px 0;
+}
+/* contact end */
+
+/* footer start */
+.footer{
+    padding: 20px 0;
+}
+/* footer end */
